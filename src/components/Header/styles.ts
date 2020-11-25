@@ -13,10 +13,12 @@ export const Container = styled.div<ContainerProps>`
     margin: 0 auto;
     padding: ${({ size }) => (size === 'small' ? '0 20px ' : '0 20px 150px')};
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
 
     nav {
+      display:flex;
       a {
         color: #fff;
         text-decoration: none;
